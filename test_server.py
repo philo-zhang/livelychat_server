@@ -9,6 +9,7 @@ host = http_listen["host"]
 port = http_listen["port"]
 
 post_url = f"http://{host}:{port}"
+# post_url = "http://192.168.8.110:5000"
 
 #for response in requests.post(post_url + "/stream", stream = True):
 #    print(response)
